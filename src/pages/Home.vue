@@ -1,5 +1,5 @@
 <template>
-  <h1>Holaasdasd</h1>
+  <h1 class="mt-5">Holaasdasd</h1>
 </template>
 
 <script lang="ts">
