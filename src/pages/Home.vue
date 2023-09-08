@@ -1,13 +1,10 @@
-<template>
-  <h1 class="mt-5">Holaasdasd</h1>
-</template>
-
-<script lang="ts">
-export default {
-  name: "Home",
-  data(){
-    return {
-    }
-  },
-}
+<script setup lang="ts">
+import Welcome from '../components/Welcome.vue'
+import AccessToProjects from '../components/AccessToProjects.vue'
 </script>
+<template>
+  <div class="container-home">
+    <Welcome />
+    <AccessToProjects />
+  </div>
+</template>

@@ -1,8 +1,13 @@
 #app{
   margin: 0px!important;
   padding: 0px!important;
-  min-width: 100vw;
-  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  color: #000;
+}
+.bg-tiquewhite{
+  background-color: antiquewhite!important;
 }
 
 .custom-navbar{
@@ -30,6 +35,126 @@
   color: #000;
   text-decoration: underline;
 }
+/* HOME */
+.container-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-container{
+  padding: 100px 15px;
+  border-bottom: 2px solid;
+  display: flex;
+  justify-content: center;
+}
+.sub-section-container{
+  max-width: 1200px;
+  width: 100%;
+}
+.title-about-me{
+  width: 480px;
+  font-size: 50px;
+  font-family: "DM Serif Display", serif!important;
+  font-weight: 600;
+}
+.subtitle-about-me{
+  width: 480px;
+  font-size: 40px;
+  font-family: "DM Serif Display", serif!important;
+  font-weight: 600;
+}
+.text-about-me{
+  width: 480px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* CARD - HOME */
+.picture-1{
+  background: url('../../public/frontend.jpg');
+  background-size: cover;
+  background-position: -140px 0px;
+  position: absolute;
+  left: 40px;
+  top: -10px;
+}
+.picture-2{
+ position: absolute;
+ background: url('../../public/monumento.jpg');
+ background-size: cover;
+ left: 180px;
+ top: 50px;
+}
+.picture-3{
+ position: absolute;
+ background: url('../../public/profile-picture.jpg');
+ background-size: cover;
+ left: 320px;
+ top: 110px;
+}
+.header-card{
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  border: 2px solid black;
+  top: -14px;
+  right: -14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-code{
+  background-color: rgb(188, 255, 147);
+}
+.icon-site{
+  background-color: rgb(252, 255, 116);
+}
+.icon-profile{
+  background-color: rgb(255, 212, 48);
+}
+.header-card img{
+  width: 25px;
+}
+.profile-container{
+  width: 250px;
+  height: 325px;
+  border-bottom: none!important;
+  display: flex;
+  align-items: flex-end;
+}
+.profile-picture{
+  width: 100%;
+}
+.caption{
+  padding: 8px 16px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  display: flex;
+  font-family: "DM Serif Display", serif!important;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+}
+.custom-button{
+  border: 2px solid black;
+  border-radius: 0px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  width: fit-content;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+}
+.custom-button:hover{
+  background-color: black!important;
+  color: white;
+}
+
+/* ACCESS PROJECTS */
+
+
+
 
 /* @media (max-width: 575.98px) { ... }
 
