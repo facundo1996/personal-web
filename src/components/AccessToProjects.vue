@@ -1,6 +1,6 @@
 <template>
   <div class="section-container">
-    <div class="sub-section-container d-flex flex-row-reverse justify-content-between">
+    <div class="sub-section-container d-flex flex-row-reverse justify-content-center justify-content-xl-between">
       <div class="d-flex flex-column justify-content-center text-end">
         <h2 class="title-about-me">Proyectos</h2>
         <p class="text-about-me">
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <div class="position-relative w-50">
+      <div class="position-relative w-50 d-none d-xl-flex">
         <div class="profile-container border border-2 border-dark project-1">
           <div class="header-card icon-code">
             

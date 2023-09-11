@@ -1,6 +1,6 @@
 <template>
   <div class="section-container bg-tiquewhite">
-    <div class="sub-section-container bg-tiquewhite d-flex justify-content-between">
+    <div class="sub-section-container bg-tiquewhite d-flex justify-content-center justify-content-xl-between">
       <div class="d-flex flex-column justify-content-center">
         <h2 class="title-about-me">Sobre mí</h2>
         <h3 class="subtitle-about-me">Frontend Developer</h3>
@@ -18,8 +18,7 @@
           <button class="custom-button bg-transparent">LinkedIn</button>
         </div>
       </div>
-      <div class="position-relative w-50">
-
+      <div class="position-relative w-50 d-none d-xl-flex">
         <div class="profile-container border border-2 border-dark picture-1">
           <div class="header-card icon-code">
             <img src="../../public/code.png" alt="">
@@ -40,7 +39,6 @@
           </div>
           <div class="bg-white caption">Facundo</div>
         </div>
-
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar px-3">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar px-3 fixed-top">
     <div class="container-fluid navbar-container p-0">
       <a class="navbar-brand fs-3 title-navbar" href="#">Facundo Benedetto</a>
       <button class="navbar-toggler test" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
