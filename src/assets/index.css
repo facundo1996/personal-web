@@ -161,6 +161,42 @@
   color: white;
 }
 
+/* PROJECTS PAGE */
+.project-container{
+  min-height: calc(100vh - 279px);
+
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 1600px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: auto;
+}
+.cards-container{
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.project-card{
+
+  margin: 18px;
+  transition: transform 0.3s ease 0s;
+  position: relative;
+  background-color: antiquewhite;
+
+  width: 300px;
+  height: 400px;
+  border-bottom: none!important;
+  display: flex;
+  align-items: flex-end;
+}
+
 @media (max-width: 1199.98px) {
   .section-container{
     padding: 50px 15px;
