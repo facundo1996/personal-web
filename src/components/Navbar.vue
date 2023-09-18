@@ -8,7 +8,7 @@
       <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link link-navbar active" to="/">Home</router-link>
+            <router-link class="nav-link link-navbar active" to="/">Inicio</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link link-navbar active" to="/about-me">Sobre mí</router-link>
