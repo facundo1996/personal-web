@@ -1,7 +1,9 @@
 :root{
   --primary: black;
   --secondary: antiquewhite;
-  --white: white
+  --white: white;
+  --font-title: "DM Serif Display", serif;
+  --font-text: "Archivo", sans-serif;
 }
 #app{
   margin: 0px!important;
@@ -11,11 +13,24 @@
   overflow: hidden;
   color: #000;
 }
+.font-title{
+ font-family: var(--font-title);
+}
+.font-text{
+ font-family: var(--font-text);
+}
 .bg-tiquewhite{
   background-color: var(--secondary)!important;
 }
 .bg-black{
   background-color: var(--primary);
+}
+.w-300px{
+  width: 300px;
+}
+h5{
+  font-family: var(--font-title);
+  font-weight: bold;
 }
 .sub-title{
   font-family: "Archivo", sans-serif;
@@ -169,7 +184,6 @@
 /* PROJECTS PAGE */
 .project-container{
   min-height: calc(100vh - 279px);
-
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
@@ -178,6 +192,12 @@
   -webkit-box-pack: center;
   justify-content: center;
   margin: auto;
+}
+.title-projects{
+  width: 480px;
+  font-size: 72px;
+  font-family: "DM Serif Display", serif!important;
+  font-weight: 600;
 }
 .cards-container{
   width: 100%;
@@ -193,13 +213,81 @@
   margin: 18px;
   transition: transform 0.3s ease 0s;
   position: relative;
-  background-color: antiquewhite;
+  background-color: var(--secondary);
 
   width: 300px;
   height: 400px;
   border-bottom: none!important;
   display: flex;
   align-items: flex-end;
+}
+/* PROJECTS DETAILS CONTAINER */
+.project-details-container{
+  min-height: calc(100vh - 279px);
+  border-left: 2px solid;
+  border-right: 2px solid;
+  display: flex;
+  max-width: 1200px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: auto;
+}
+.section-title-project{
+  width: 100%;
+  height: 100%;
+}
+.title-project{
+  font-size: 90px;
+  font-family: "DM Serif Display", serif!important;
+  font-weight: bold;
+  width: 100%;
+  text-align: center; 
+  height: min-content;
+}
+.about-page{
+  font-size: 26px;
+  font-family: "DM Serif Display", serif!important;
+  font-weight: bold;
+  width: 100%;
+  text-align: center; 
+  height: min-content;
+  margin-bottom: 15px;
+}
+.link-project:hover{
+  text-decoration: underline;
+  color: #000;
+}
+.link-project{
+  font-size: 16px;
+  font-family: "Archivo", sans-serif; 
+  font-weight: bold;  
+  text-align: center; 
+  height: min-content;
+  color: #000;
+}
+.section-tools{
+  width: 50%;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+.img-project{
+  width: 100%; 
+  height: auto;
+  border-radius: 15px;
+}
+.stack-card{
+  border: 2px solid black;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 3px 5px;
+  font-family: var(--font-text);
 }
 
 @media (max-width: 1199.98px) {

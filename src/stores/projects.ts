@@ -1,53 +1,85 @@
-const projects = [
+
+const Allprojects = [
   {
     title: 'Fantasy',
     primary: 'Quasar',
-    description: '',
+    description: 'Es una aplicación móvil donde los usuarios pueden crear su equipo semanalmente recogiendo 5 acciones de la bolsa de valores. Basado en cómo sean los precios de las acciones seleccionadas, los equipos sumarán o restarán puntos. Al final de cada semana, los 10 mejores equipos ganarán un premio.',
     programming: '',
-    pictures: '',
+    link: 'www.google.com.ar',
+    github: 'www.google.com.ar',
+    pictures: '../../public/cryptocampo.png',
+    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
   },
   {
     title: 'Stash101',
     primary: 'Vue JS',
-    description: '',
+    description: 'Anteriormente conocido como ‘Paygrade’, es una simulación de bancos e inversiones para que los estudiantes aprendan sobre finanzas personales, hacer presupuestos, pagar facturas, ganar un ingreso, ahorrar o invertir en el mercado de valores',
     programming: '',
-    pictures: '',
+    link: 'www.google.com.ar',
+    github: 'www.google.com.ar',
+    pictures: '../../public/cryptocampo.png',
+    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
   },
   {
     title: 'Cryptocampo',
     primary: 'Vue JS',
-    description: '',
+    description: 'Primer proyecto web3 en Argentina que logro mezclar la tecnología blockchain con el cultivo agropecuario.',
     programming: '',
-    pictures: '',
+    link: 'www.google.com.ar',
+    github: 'www.google.com.ar',
+    pictures: '../../public/cryptocampo.png',
+    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
   },
   {
     title: 'KT-Black',
     primary: 'React JS',
     description: '',
     programming: '',
-    pictures: '',
+    link: 'www.google.com.ar',
+    github: 'www.google.com.ar',
+    pictures: '../../public/cryptocampo.png',
+    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
   },
   {
     title: 'Incognito',
     primary: 'Vue JS',
-    description: '',
+    description: 'Una colección NFT de 10.000 tokens de arte 3D en Ethereum Mainnet que se agotó en 12 minutos.',
     programming: '',
-    pictures: '',
+    link: 'www.google.com.ar',
+    github: 'www.google.com.ar',
+    pictures: '../../public/cryptocampo.png',
+    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
   },
   {
     title: 'Kasai',
     primary: 'Quasar',
     description: '',
     programming: '',
-    pictures: '',
+    link: 'www.google.com.ar',
+    github: 'www.google.com.ar',
+    pictures: '../../public/cryptocampo.png',
+    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
   },
   {
     title: 'Capable Maker',
     primary: 'Vue JS',
     description: '',
     programming: '',
-    pictures: '',
+    link: 'www.google.com.ar',
+    github: 'www.google.com.ar',
+    pictures: '../../public/cryptocampo.png',
+    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
   },
 ]
 
-export default projects
+const getProject = (title: string) => {
+  let projectSelected = Allprojects.find(
+    (project) => project.title === title
+  );
+  return projectSelected;
+};
+
+export const projects = { 
+  Allprojects, 
+  getProject 
+}
