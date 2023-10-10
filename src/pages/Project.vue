@@ -23,18 +23,23 @@
           <div class="section-tools border-end border-top border-bottom border-dark border-2">
             <h5>Stack Tecnológico</h5>
             <div class="d-flex flex-wrap">
-              <div class="stack-card" v-for="(tool, index) in stack" :key="index" >{{ tool }}</div>
+              <div class="stack-card" v-for="(tool, index) in stack" :key="index">{{ tool }}</div>
             </div>
-            <h5 class="mt-2">Descripcion de proyecto</h5>
+            <h5 class="mt-3">Descripcion de proyecto</h5>
             <p class="font-text">
               {{ description }}
             </p>
           </div>
-          <div class="section-tools border-top border-bottom border-dark border-2">b</div>
+          <div class="section-tools border-top border-bottom border-dark border-2">
+            <h5 class="mt-2">Mis tareas:</h5>
+            <ul>
+              <li class="font-text" v-for="(task, index) in programming" :key="index">{{ task }}</li>
+            </ul>
+          </div>
         </div>
 
         <div class="p-4">
-          <img class="img-project" :src="pictures" alt="">
+          <img v-for="(picture, index) in pictures" :key="index" class="img-project" :src="picture" alt="">
         </div>
       </section>
     </div>
@@ -50,8 +55,8 @@ export default {
       primary: '',
       description: '',
       github: '',
-      programming: '',
-      pictures: '',
+      programming: [] as string[],
+      pictures: [] as string[],
       stack: [] as string[]
     }
   },

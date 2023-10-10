@@ -4,6 +4,9 @@
   --white: white;
   --font-title: "DM Serif Display", serif;
   --font-text: "Archivo", sans-serif;
+  --quasar: #1976d2;
+  --vue: #26a69a;
+  --react: #03a9f4;
 }
 #app{
   margin: 0px!important;
@@ -12,6 +15,15 @@
   min-height: 100vh;
   overflow: hidden;
   color: #000;
+}
+.quasar{
+  background-color: var(--quasar);
+}
+.vue{
+  background-color: var(--vue);
+}
+.react{
+  background-color: var(--react);
 }
 .font-title{
  font-family: var(--font-title);
@@ -209,18 +221,21 @@ h5{
   margin-bottom: 50px;
 }
 .project-card{
-
   margin: 18px;
   transition: transform 0.3s ease 0s;
   position: relative;
   background-color: var(--secondary);
-
+  
   width: 300px;
   height: 400px;
   border-bottom: none!important;
   display: flex;
   align-items: flex-end;
 }
+.project-card:hover{
+  cursor: pointer;
+}
+
 /* PROJECTS DETAILS CONTAINER */
 .project-details-container{
   min-height: calc(100vh - 279px);
@@ -306,11 +321,11 @@ h5{
     font-family: "DM Serif Display", serif!important;
     font-weight: 600;
   }
-  .text-about-me{
-    width: auto;
-    font-family: "Archivo", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+  .text-about-me { 
+    width: auto; 
+    font-family: 'Archivo', sans-serif; 
+    font-weight: 500; 
+    font-size: 20px; 
   }
 }
 
