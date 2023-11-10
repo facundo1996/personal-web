@@ -13,8 +13,7 @@
           magnam.
         </p>
         <div class="d-flex justify-content-end">
-          <button class="me-3 custom-button bg-white">Sobre mí</button>
-          <button class="custom-button bg-transparent">LinkedIn</button>
+          <button class="custom-button bg-white">Proyectos</button>
         </div>
       </div>
 

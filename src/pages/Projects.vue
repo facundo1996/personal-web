@@ -17,14 +17,7 @@ export default {
   name: "Projects",
   data() {
     return {
-      projects: projects.Allprojects,
-      projectSelected: {
-        title: '',
-        primary: '',
-        description: '',
-        programming: '',
-        pictures: '',
-      }
+      projects: projects.Allprojects,  
     }
   },
   components: {
@@ -33,7 +26,6 @@ export default {
   },
   methods: {
     openModal(project:any) {
-      this.projectSelected = project
       this.$router.push({ 
         name: 'project', 
         params: { project: project.title },

@@ -15,7 +15,7 @@ const Allprojects = [
     link: '',
     github: '',
     pictures: ['../../public/fantasy-1.png'],
-    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
+    stack: ['Quasar', 'jQuery', 'JavaScript', 'Vuex', 'Vue Router', 'CSS'],
   },
   {
     title: 'Stash101',
@@ -23,79 +23,103 @@ const Allprojects = [
     description: 'Anteriormente conocido como ‘Paygrade’, es una simulación de bancos e inversiones para que los estudiantes aprendan sobre finanzas personales, hacer presupuestos, pagar facturas, ganar un ingreso, ahorrar o invertir en el mercado de valores',
     programming: [
       'Maqueté el rediseño del proyecto trabajando en conjunto con Figma.',
-      'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
-      'Adapte el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.', 
+      'Adapte el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.',
       'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
       'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
-      'Integré un estado global y de gestión de datos mediante Vuex.',
       'Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.',
-      'Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router.',
     ],
     link: 'https://www.stash.com/stash101/resources/',
     github: '',
     pictures: ['../../public/stash.png'],
-    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
+    stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],
+    border: true,
   },
   {
     title: 'Cryptocampo',
     primary: 'Vue JS',
     description: 'Primer proyecto web3 en Argentina que logro mezclar la tecnología blockchain con el cultivo agropecuario.',
     programming: [
-      'Desarrollé la interfaz web basada en el diseño proporcionado.',
-      'Navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router'
+      'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
+      'Adapte el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.',
+      'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
+      'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
+      'Integré un estado global y de gestión de datos mediante Vuex.',
+      'Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.',
+      'Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router.',
     ],
-    link: 'www.google.com.ar',
-    github: 'www.google.com.ar',
+    link: 'https://cryptocampo.app/#/',
+    github: '',
     pictures: ['../../public/cryptocampo.png'],
-    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
+    stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],
   },
   {
     title: 'KT-Black',
     primary: 'React JS',
-    description: '',
+    description: 'Es una plataforma en línea que ofrece una variedad de servicios relacionados con el desarrollo de software y la consultoría tecnológica. Su enfoque principal es brindar soluciones en diferentes áreas, como desarrollo de software, transformación digital y servicios de infraestructura. La plataforma busca ayudar a las empresas a alcanzar sus objetivos y enfrentar los desafíos del mundo digital actual.',
     programming: [
-
+      "Maqueté el proyecto trabajando en conjunto con el diseñador (Adobe XD).",
+      "Adapté el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.",
+      "Creé y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.",
+      "Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.",
     ],
-    link: 'www.google.com.ar',
-    github: 'www.google.com.ar',
-    pictures: ['../../public/cryptocampo.png', '../../public/incognito.png'],
-    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
+    link: 'https://www.ktblack.com/s/',
+    github: '',
+    pictures: ['../../public/kt-black.png', '../../public/kt-black-2.png'],
+    stack: ['React', 'Material UI', 'JavaScript', 'CSS' ],
+    border: true,
   },
   {
     title: 'Incognito',
     primary: 'Vue JS',
     description: 'Una colección NFT de 10.000 tokens de arte 3D en Ethereum Mainnet que se agotó en 12 minutos.',
     programming: [
-
+      "Maqueté y desarrollé la interfaz basada en el diseño de Figma, incluyendo una galería robusta, gestionando más de 10,000 imágenes mediante llamadas a API. Con varios filtros y paginación a través de query parameters para lograr una experiencia fluida y optimizada.",
+      "Adapté el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.",
+      "Creé y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.",
+      "Integré un estado global y de gestión de datos mediante Vuex.",
+      "Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.",
+      "Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router."
     ],
-    link: 'www.google.com.ar',
-    github: 'www.google.com.ar',
+    link: 'https://incognitonft.com/',
+    github: '',
     pictures: ['../../public/incognito.png'],
-    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
+    stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'Bootstrap', 'HTML', 'CSS'],
   },
   {
     title: 'Kasai',
     primary: 'Quasar',
-    description: '',
+    description: 'Kasai es una aplicación de conectividad diseñada para mejorar tu experiencia escolar. Proporcionan una herramienta educativa integral que le permite conectarse con compañeros de estudio y eventos relacionados con el campus, brindando una experiencia educativa más rica y exitosa.',
     programming: [
-
+      "Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).",
+      "Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.",
+      "Integré Google maps y Google autocomplete.",
+      "Creé y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.",
+      "Integré un estado global y de gestión de datos mediante Vuex.",
+      "Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.",
+      "Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router."
     ],
-    link: 'www.google.com.ar',
-    github: 'www.google.com.ar',
-    pictures: ['../../public/cryptocampo.png', '../../public/incognito.png'],
-    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
+    link: 'https://play.google.com/store/apps/details?id=com.kasai.app&hl=en_US&gl=US',
+    github: '',
+    pictures: ['../../public/kasai-3.png', '../../public/kasai-2.png'],
+    stack: ['Quasar', 'JavaScript', 'Vuex', 'Vue Router', 'CSS', 'Bootstrap'],
   },
   {
     title: 'Capable Maker',
     primary: 'Vue JS',
-    description: '',
+    description: 'Es un sitio web que ofrece recursos y tutoriales para aquellos interesados en la fabricación y creación de proyectos. Proporciona información sobre electrónica, programación, impresión 3D y otros temas relacionados. Además, ofrece guías paso a paso, videos y contenido educativo para ayudar a los usuarios a aprender y desarrollar sus habilidades en el campo de la fabricación.',
     programming: [
-
+      'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
+      'Adapte el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.',
+      'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
+      'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
+      'Integré un estado global y de gestión de datos mediante Vuex.',
+      'Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.',
+      'Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router.',
     ],
-    link: 'www.google.com.ar',
-    github: 'www.google.com.ar',
-    pictures: ['../../public/cryptocampo.png', '../../public/incognito.png'],
-    stack: ['HTML', 'CSS', 'React JS', 'JavaScript', 'Vue JS', 'Vuex', 'Vue Router', 'Material UI'],
+    link: 'https://capablemaker.com/',
+    github: '',
+    pictures: ['../../public/capable.png'],
+    stack: ['Vue JS', 'JavaScript', 'Bootstrap', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'jQuery'],
   },
 ]
 
@@ -106,7 +130,7 @@ const getProject = (title: string) => {
   return projectSelected;
 };
 
-export const projects = { 
-  Allprojects, 
-  getProject 
+export const projects = {
+  Allprojects,
+  getProject
 }
