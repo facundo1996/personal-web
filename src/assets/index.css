@@ -7,6 +7,17 @@
   --quasar: #1976d2;
   --vue: #26a69a;
   --react: #03a9f4;
+
+
+    --popper-theme-background-color: #333333;
+    --popper-theme-background-color-hover: #333333;
+    --popper-theme-text-color: #ffffff;
+    --popper-theme-border-width: 0px;
+    --popper-theme-border-style: solid;
+    --popper-theme-border-radius: 6px;
+    --popper-theme-padding: 10px;
+    --popper-theme-box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
+  
 }
 #app{
   margin: 0px!important;
@@ -45,7 +56,7 @@ h5{
   font-weight: bold;
 }
 .sub-title{
-  font-family: "Archivo", sans-serif;
+  font-family: var(--font-text);
   font-weight: 500;
   font-size: 20px;
   font-weight: 600;
@@ -61,7 +72,7 @@ h5{
 .title-navbar{
   color: #000;
   font-weight: 600;
-  font-family: "DM Serif Display", serif!important;
+  font-family: var(--font-title)!important;
 }
 .title-navbar:hover{
   color: #000;
@@ -70,7 +81,7 @@ h5{
 .link-navbar{
   color: #000;
   font-weight: 600;
-  font-family: "Archivo", sans-serif;
+  font-family: var(--font-text);
 }
 .link-navbar:hover{
   color: #000;
@@ -96,18 +107,12 @@ h5{
 .title-about-me{
   width: 480px;
   font-size: 50px;
-  font-family: "DM Serif Display", serif!important;
-  font-weight: 600;
-}
-.subtitle-about-me{
-  width: 480px;
-  font-size: 40px;
-  font-family: "DM Serif Display", serif!important;
+  font-family: var(--font-title)!important;
   font-weight: 600;
 }
 .text-about-me{
   width: 480px;
-  font-family: "Archivo", sans-serif;
+  font-family: var(--font-text);
   font-weight: 500;
   font-size: 20px;
 }
@@ -172,7 +177,7 @@ h5{
   border-bottom: 2px solid black;
   border-top: 2px solid black;
   display: flex;
-  font-family: "DM Serif Display", serif!important;
+  font-family: var(--font-title)!important;
   font-size: 20px;
   font-weight: 600;
   width: 100%;
@@ -185,8 +190,9 @@ h5{
   display: block;
   text-decoration: none;
   width: fit-content;
-  font-family: "Archivo", sans-serif;
+  font-family: var(--font-text);
   font-weight: 600;
+  color: black;
 }
 .custom-button:hover{
   background-color: black!important;
@@ -208,7 +214,7 @@ h5{
 .title-projects{
   width: 480px;
   font-size: 72px;
-  font-family: "DM Serif Display", serif!important;
+  font-family: var(--font-title)!important;
   font-weight: 600;
 }
 .cards-container{
@@ -253,7 +259,7 @@ h5{
 }
 .title-project{
   font-size: 90px;
-  font-family: "DM Serif Display", serif!important;
+  font-family: var(--font-title)!important;
   font-weight: bold;
   width: 100%;
   text-align: center; 
@@ -261,7 +267,7 @@ h5{
 }
 .about-page{
   font-size: 26px;
-  font-family: "DM Serif Display", serif!important;
+  font-family: var(--font-title)!important;
   font-weight: bold;
   width: 100%;
   text-align: center; 
@@ -272,13 +278,28 @@ h5{
   text-decoration: underline;
   color: #000;
 }
+.link-project:focus{
+  box-shadow: none;
+}
 .link-project{
   font-size: 16px;
-  font-family: "Archivo", sans-serif; 
+  font-family: var(--font-text); 
   font-weight: bold;  
   text-align: center; 
   height: min-content;
   color: #000;
+  border: none!important;
+  text-decoration: underline;
+  position: relative;
+}
+.lock-icon{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 20;
 }
 .section-tools{
   width: 50%;
@@ -296,6 +317,7 @@ h5{
   width: 100%; 
   height: auto;
   border-radius: 15px;
+  margin-top: 20px;
 }
 .stack-card{
   border: 2px solid black;
@@ -312,13 +334,7 @@ h5{
   .title-about-me{
     width: auto;
     font-size: 40px;
-    font-family: "DM Serif Display", serif!important;
-    font-weight: 600;
-  }
-  .subtitle-about-me{
-    width: auto;
-    font-size: 35px;
-    font-family: "DM Serif Display", serif!important;
+    font-family: var(--font-title)!important;
     font-weight: 600;
   }
   .text-about-me { 

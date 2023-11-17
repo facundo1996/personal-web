@@ -8,15 +8,25 @@
           {{ title }}
         </h1>
 
-        <h5 class="about-page">About Page</h5>
+        <h5 class="about-page">Sobre la página</h5>
 
         <div class="w-100 text-center d-flex align-items-center justify-content-center mb-3">
-          <a class="link-project" href="">
-            <img src="../../public/web.png" width="25" class="me-1" alt="">Link
-          </a>
-          <a class="link-project ms-3" href="">
-            <img src="../../public/github.png" width="25" class="me-1" alt="">GitHub
-          </a>
+          <Popper hover placement="top" content="Proyecto no disponible" arrow :disabled="!!link" >
+            <div class="position-relative">
+              <img v-if="!link" src="../../public/lock.png" width="30" class="lock-icon">
+              <button :disabled="link ?false :true" v-on:click="toPage(link)" class="link-project btn">
+                <img src="../../public/web.png" width="25" class="me-1" alt="">Web
+              </button>
+            </div>
+          </Popper>
+          <Popper hover placement="top" content="Repositorio privado" arrow :disabled="!!github" >
+            <div class="position-relative">
+              <img v-if="!github" src="../../public/lock.png" width="30" class="lock-icon">
+              <button :disabled="github ?false :true" v-on:click="toPage(github)" class="link-project btn">
+                <img src="../../public/github.png" width="25" class="me-1" alt="">GitHub
+              </button>
+            </div>
+          </Popper>
         </div>
 
         <div class="d-flex flex-wrap">
@@ -39,7 +49,8 @@
         </div>
 
         <div class="p-4">
-          <img v-for="(picture, index) in pictures" :key="index" class="img-project" :src="picture" alt="">
+          <img v-for="(picture, index) in pictures" :key="index"
+            :class="border ? 'img-project border border-dark border-1' : 'img-project'" :src="picture" alt="">
         </div>
       </section>
     </div>
@@ -47,6 +58,8 @@
 </template>
 <script lang="ts">
 import { projects } from '../stores/projects'
+import Popper from "vue3-popper";
+
 export default {
   name: "Project",
   data() {
@@ -54,10 +67,20 @@ export default {
       title: '',
       primary: '',
       description: '',
+      link: '',
       github: '',
       programming: [] as string[],
       pictures: [] as string[],
-      stack: [] as string[]
+      stack: [] as string[],
+      border: false,
+    }
+  },
+  components: {
+    Popper,
+  },
+  methods: {
+    toPage(page:string) {
+      window.open(page, "_blank");
     }
   },
   mounted() {
@@ -69,8 +92,10 @@ export default {
       this.description = selectedProject.description;
       this.programming = selectedProject.programming;
       this.pictures = selectedProject.pictures;
+      this.link = selectedProject.link;
       this.github = selectedProject.github;
       this.stack = selectedProject.stack;
+      this.border = selectedProject.border as false;
     }
   },
 }

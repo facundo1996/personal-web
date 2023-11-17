@@ -4,40 +4,36 @@
       <div class="d-flex flex-column justify-content-center text-end">
         <h2 class="title-about-me">Proyectos</h2>
         <p class="text-about-me">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit omnis inventore corporis iure. Unde eos odio
-          quidem fugit autem porro incidunt optio quis totam laudantium non maxime, harum, ipsum soluta?
+          Aquí podrás ver algunos de los proyectos en los que he participado en mis <b>+3 años de experiencia como Front End</b> y también algunos de los proyectos que hice como practicas personales.
         </p>
         <p class="text-about-me">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium qui esse minima optio vero quasi error
-          totam illo, mollitia temporibus, saepe magni adipisci. Facere nostrum repudiandae maxime, quisquam recusandae
-          magnam.
+          Aquí encontraras desde aplicaciones móviles hasta páginas web y experiencias Web3 para la venta de NFT.
         </p>
         <div class="d-flex justify-content-end">
-          <button class="me-3 custom-button bg-white">Sobre mí</button>
-          <button class="custom-button bg-transparent">LinkedIn</button>
+          <router-link to="/projects" class="custom-button bg-white">Proyectos</router-link>
         </div>
       </div>
 
       <div class="position-relative w-50 d-none d-xl-flex">
         <div class="profile-container border border-2 border-dark project-1">
-          <div class="header-card icon-code">
-            
+          <div class="header-card react">
+            React JS
           </div>
-          <div class="bg-white caption">Incognito NFT</div>
+          <div class="bg-white caption">KT-Black</div>
         </div>
 
         <div class="profile-container border border-2 border-dark project-2">
-          <div class="header-card icon-site">
-            
+          <div class="header-card quasar">
+            Quasar
           </div>
-          <div class="bg-white caption">Stash101</div>
+          <div class="bg-white caption">Fantasy</div>
         </div>
 
         <div class="profile-container border border-2 border-dark project-3">
-          <div class="header-card icon-profile">
-            
+          <div class="header-card vue">
+            Vue JS
           </div>
-          <div class="bg-white caption">Cryptocampo</div>
+          <div class="bg-white caption">Incognito NFT</div>
         </div>
       </div>
     </div>
@@ -45,31 +41,32 @@
 </template>
 
 <style scoped>
-.project-1{
+.project-1 {
+  position: absolute;
+  background: url('../../public/kt-black-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 40px;
+  top: -30px;
+}
+
+.project-2 {
+  position: absolute;
+  background: url('../../public/fantasy-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 180px;
+  top: 30px;
+}
+
+.project-3 {
   position: absolute;
   background: url('../../public/incognito.png');
   background-size: cover;
   background-repeat: no-repeat;
-  left: 40px;
-  top: -10px;
+  left: 320px;
+  top: 90px;
 }
-.project-2{
- position: absolute;
- background: url('../../public/stash.png');
- background-size: cover;
- background-repeat: no-repeat;
- left: 180px;
- top: 50px;
-}
-.project-3{
- position: absolute;
- background: url('../../public/cryptocampo.png');
- background-size: cover;
- background-repeat: no-repeat;
- left: 320px;
- top: 110px;
-}
-
 </style>
 
 <script lang="ts">
