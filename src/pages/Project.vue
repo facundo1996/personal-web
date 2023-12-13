@@ -15,7 +15,7 @@
             <div class="position-relative">
               <img v-if="!link" src="../../public/lock.png" width="30" class="lock-icon">
               <button :disabled="link ?false :true" v-on:click="toPage(link)" class="link-project btn">
-                <img src="../../public/web.png" width="25" class="me-1" alt="">Web
+                <img src="../../public/web.png" width="25" class="me-1" alt="">Proyecto
               </button>
             </div>
           </Popper>

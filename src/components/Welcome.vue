@@ -1,6 +1,6 @@
 <template>
   <div class="section-container bg-tiquewhite">
-    <section class="sub-section-container bg-tiquewhite d-flex justify-content-center justify-content-xl-between">
+    <section class="sub-section-container bg-tiquewhite d-flex justify-content-center justify-content-xl-between align-items-center">
       <div class="d-flex flex-column justify-content-center">
         <h2 class="title-about-me">¡Bienvenido a mi espacio digital!</h2>
         <p class="text-about-me">
@@ -18,6 +18,7 @@
           <a href="https://www.linkedin.com/in/facundo-benedetto-44772b189/" target="_blanck" class="custom-button bg-transparent">LinkedIn</a>
         </div>
       </div>
+
       <div class="position-relative w-50 d-none d-xl-flex">
         <div class="profile-container border border-2 border-dark picture-1">
           <div class="header-card icon-code">
@@ -40,6 +41,7 @@
           <div class="bg-white caption">Facundo</div>
         </div>
       </div>
+
     </section>
   </div>
 </template>
