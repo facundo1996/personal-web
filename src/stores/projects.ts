@@ -28,7 +28,7 @@ const Allprojects = [
       'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
       'Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.',
     ],
-    link: 'https://www.stash.com/stash101/resources/',
+    link: 'https://www.stash.com/',
     github: '',
     pictures: ['../../public/stash.png'],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],

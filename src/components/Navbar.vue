@@ -17,7 +17,7 @@
             <router-link class="nav-link link-navbar active" to="/projects">Proyectos</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link link-navbar active" to="/">Contacto</router-link>
+            <router-link class="nav-link link-navbar active" to="/contact">Contacto</router-link>
           </li>
         </ul>
       </div>

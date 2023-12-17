@@ -54,6 +54,10 @@ h5{
   font-family: var(--font-title);
   font-weight: bold;
 }
+h4{
+  font-family: var(--font-title);
+  font-weight: bold;
+}
 .sub-title{
   font-family: var(--font-text);
   font-weight: 500;
@@ -95,7 +99,7 @@ h5{
   padding: 10px 0px;
 }
 .background-box-about-me{
-  background-color: antiquewhite;
+  background-color: var(--secondary);
   padding: 20px;
   border-radius: 13px;
 }
@@ -194,6 +198,75 @@ h5{
   font-weight: 500;
   font-size: 20px;
 }
+
+.social-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  background-color: var(--secondary);
+  padding: 20px;
+  border-radius: 13px;
+}
+.form-conatiner{
+  width: 600px;
+  margin-top: 80px;
+}
+.btn-form-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-icon-social{
+  background: white;
+  border: 2px solid var(--primary);
+  border-radius: 0px;
+  padding: 5px 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.8s;
+}
+.icon-social{
+  width: 25px;
+  padding: none;
+  filter: invert(0%);
+  transition: 0.8s;
+}
+
+.btn-icon-social:hover .icon-social{
+  transition: 0.8s;
+  filter: invert(100%);
+}
+.btn-icon-social:hover{
+  transition: 0.8s;
+  background-color: var(--primary); 
+}
+.label-form{
+  font-family: var(--font-text);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.form-control{
+  border: 2px solid black;
+  border-radius: 0px;
+}
+.form-control:focus{
+  border-color: black;
+  box-shadow: 0 0 0 0.05rem black;
+}
+
+h3{
+  font-family: var(--font-title);
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+  font-size: 3.25rem;
+  line-height: 1.1;
+}
+
+
 /* CARD - HOME */
 .picture-1{
   background: url('../../public/frontend.jpg');
@@ -271,8 +344,10 @@ h5{
   font-family: var(--font-text);
   font-weight: 600;
   color: var(--primary);
+  transition: 0.5s;
 }
 .custom-button:hover{
+  transition: 0.5s;
   background-color: var(--primary)!important;
   color: white;
 }

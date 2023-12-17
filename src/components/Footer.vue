@@ -6,7 +6,7 @@
       <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Proyectos</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contacto</a></li>
     </ul>
-    <p class="text-center">&copy; 2023, Facundo Benedetto</p>
+    <p class="text-center">Facundo Benedetto</p>
   </footer>
 </template>
 

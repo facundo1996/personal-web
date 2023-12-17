@@ -23,6 +23,11 @@ const router = createRouter({
       name: 'about-me',
       component: () => import('../pages/AboutMe.vue') 
     },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../pages/Contact.vue') 
+    },
   ],
   scrollBehavior (to, from, savedPosition) {
     return { top: 0 }
