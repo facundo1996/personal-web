@@ -15,5 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'https://facundo1996.github.io/personal-web'
+  base: '/personal-web/'
 })
