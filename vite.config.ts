@@ -14,5 +14,6 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: 'https://facundo1996.github.io/personal-web'
 })
