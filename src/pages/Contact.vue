@@ -2,44 +2,33 @@
   <div class="d-flex flex-column justify-content-start align-items-center min-height-page bg-tiquewhite">
 
 
-    <div class="container-page d-flex justify-content-center">
+    <div class="container-page d-flex flex-column align-items-center justify-content-start">
 
       <div class="form-conatiner">
+        <h3 class="mb-md-5 mb-2">Contactame</h3>
+        <p class="mb-md-5 mb-2 text-social">Tambien puede agendar mi email: <b>facundobenedetto2@outlook.com</b></p>
 
-        <h3 class="mb-5">Contactame.</h3>
-
-        <form>
+        <form id="form">
           <div class="form-group">
-            <label class="label-form" for="exampleFormControlInput1">Nombre</label>
-            <input type="email" class="form-control font-text" id="exampleFormControlInput1" placeholder="Facundo Benedetto">
+            <label class="label-form" for="name">Nombre</label>
+            <input type="email" class="form-control font-text" id="name" v-model="name" name="name" placeholder="Facundo Benedetto">
           </div>
 
           <div class="form-group mt-4">
-            <label class="label-form" for="exampleFormControlInput1">Email</label>
-            <input type="email" class="form-control font-text" id="exampleFormControlInput1"
-              placeholder="email@example.com">
+            <label class="label-form" for="email">Email</label>
+            <input type="email" class="form-control font-text" id="email" v-model="email" name="email" placeholder="email@example.com">
           </div>
 
           <div class="form-group mt-4">
-            <label class="label-form" for="exampleFormControlTextarea1">Mensaje</label>
-            <textarea class="form-control font-text" id="exampleFormControlTextarea1" rows="3" style="min-height: 150px;"
+            <label class="label-form" for="message">Mensaje</label>
+            <textarea class="form-control font-text" id="message" v-model="message" name="message" rows="3" style="min-height: 150px;"
               placeholder="Mensaje ..."></textarea>
           </div>
         </form>
         <div class="btn-form-container">
-          <button class="btn custom-button bg-white mt-4 px-5">Enviar</button>
+          <button class="btn custom-button bg-white mt-4 px-5" v-on:click="sendEmail">Enviar</button>
         </div>
-
-        
       </div>
-
-      <!-- <div class="social-container">
-        <button class="btn-icon-social "><img class="icon-social" src="https://www.svgrepo.com/show/501210/github.svg" alt=""></button>
-        <button class="btn-icon-social "><img class="icon-social" src="https://www.svgrepo.com/show/512419/linkedin-161.svg" alt=""></button>
-        <button class="btn-icon-social "><img class="icon-social" src="https://www.svgrepo.com/show/117938/outlook-logo.svg" alt=""></button>
-        <button class="btn-icon-social "><img class="icon-social" src="https://www.svgrepo.com/show/256562/curriculum-portfolio.svg" alt=""></button>
-      </div> -->
-
     </div>
 
 
@@ -48,8 +37,26 @@
 </template>
 
 <script lang="ts">
+import emailjs from '@emailjs/browser';
 export default {
+  data(){
+    return {
+      name: "",
+      message: "",
+      email: "",
+    }
+  },
   name: 'Contact',
+  methods: {
+    sendEmail() {
+      console.log("aseas")
+      emailjs.send("service_phjc9cs","template_c7p4cy8",{
+        name: this.name,
+        message: this.message,
+        email: this.email
+      }, 'j-Uuf5D2B0nwery5p');
+    }
+  }
 
 }
 </script>
