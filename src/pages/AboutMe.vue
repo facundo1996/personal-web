@@ -1,8 +1,10 @@
 
 <template>
   <div class="d-flex flex-column justify-content-start align-items-center py-4 min-height-page">
-    <AboutMeText />
-    <Skills />
+    <div class="container-page">
+      <AboutMeText />
+      <Skills />
+    </div>
   </div>
 </template>
 

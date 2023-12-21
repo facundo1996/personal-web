@@ -76,6 +76,7 @@ h4{
   color: #000;
   font-weight: 600;
   font-family: var(--font-title)!important;
+  width: 302px;
 }
 .title-navbar:hover{
   color: #000;
@@ -106,6 +107,7 @@ h4{
 .box-about-me{
   padding-top: 350px;
   position: relative;
+  margin-bottom: 24px;
 }
 .background-about-me{
   background-image: url(https://i.redd.it/n8agw6z2smyb1.gif);
@@ -125,6 +127,12 @@ h4{
   position: relative;
   display: flex;
   margin-bottom: 15px;
+}
+.about-me-img-container{
+  position: relative;
+  height: 145px;
+  min-width: 250px;
+  box-sizing: border-box;
 }
 .picture-about-me{
   background: url('../../public/profile-picture.jpg');
@@ -198,19 +206,36 @@ h4{
   font-weight: 500;
   font-size: 20px;
 }
-
+.text-social{
+  font-family: var(--font-text);
+  font-size: 16px;
+}
 .social-container{
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10px;
-  background-color: var(--secondary);
-  padding: 20px;
-  border-radius: 13px;
+}
+.social-container-footer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.btn-icon-social-footer{
+  background: transparent;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-icon-social-footer img{
+  filter: invert(100%);
+  width: 25px;
 }
 .form-conatiner{
   width: 600px;
   margin-top: 80px;
+  margin-bottom: 50px;
 }
 .btn-form-container{
   width: 100%;
@@ -218,31 +243,24 @@ h4{
   justify-content: flex-end;
 }
 .btn-icon-social{
-  background: white;
-  border: 2px solid var(--primary);
-  border-radius: 0px;
-  padding: 5px 10px;
-
+  background: transparent;
+  padding: 10px 20px;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transition: 0.8s;
 }
 .icon-social{
   width: 25px;
   padding: none;
-  filter: invert(0%);
-  transition: 0.8s;
+  border-bottom: 0px solid black;
+  transition: 0.1s;
 }
 
-.btn-icon-social:hover .icon-social{
-  transition: 0.8s;
-  filter: invert(100%);
-}
 .btn-icon-social:hover{
-  transition: 0.8s;
-  background-color: var(--primary); 
+  transition: 0.1s;
+  border-bottom: 3px solid black; 
 }
 .label-form{
   font-family: var(--font-text);
@@ -482,8 +500,8 @@ h3{
 
 @media (max-width: 1199.98px) {
   .container-page {
-    padding: 40px 10px;
-}
+    padding: 0px 10px;
+  }
   .section-container{
     padding: 50px 15px;
   }
@@ -498,6 +516,37 @@ h3{
     font-family: 'Archivo', sans-serif; 
     font-weight: 500; 
     font-size: 20px; 
+  }
+}
+@media (max-width: 767.98px) {
+  .title-navbar{
+    width: auto;
+  }
+  .form-conatiner{
+    margin-top: 0px;
+    width: 100%;
+  }
+  .about-me-container{
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .about-me-img-container{
+    position: relative;
+    height: 145px;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .picture-about-me{
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -200px;
+  }
+  .box-about-me{
+    padding-top: 250px;
+  }
+  .background-about-me{
+    height: 250px;
   }
 }
 

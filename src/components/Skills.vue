@@ -1,5 +1,5 @@
 <template>
-  <div class="container-page">
+  <div class="">
 
     <div class="background-box-about-me">
       <h5 class="subtitle">Principales</h5>

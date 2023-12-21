@@ -1,16 +1,16 @@
 <template>
-  <div class="container-page">
+  <div class="">
 
     <div class="box-about-me background-box-about-me">
 
       <div class="background-about-me"></div>
 
       <div class="about-me-container">
-        <div style="position: relative; height: 145px; min-width: 250px; box-sizing: border-box;">
+        <div class="about-me-img-container">
           <div class="profile-container border border-2 border-dark picture-about-me">
           </div>
         </div>
-        <div class="ps-3 pt-3">
+        <div class="ps-md-3 pt-md-3 ps-0 pt-0">
           <h5 class="subtitle">Facundo Benedetto</h5>
           <p class="text">
             Soy un Desarrollador Front-End con +3 años de experiencia en tecnologías clave como Vue JS, React JS y Next JS.
