@@ -29,8 +29,8 @@
           </Popper>
         </div>
 
-        <div class="d-flex flex-wrap">
-          <div class="section-tools border-end border-top border-bottom border-dark border-2">
+        <div class="d-flex flex-md-row flex-column">
+          <div class="section-tools border-tools-1">
             <h5>Stack Tecnológico</h5>
             <div class="d-flex flex-wrap">
               <div class="stack-card" v-for="(tool, index) in stack" :key="index">{{ tool }}</div>
@@ -40,7 +40,7 @@
               {{ description }}
             </p>
           </div>
-          <div class="section-tools border-top border-bottom border-dark border-2">
+          <div class="section-tools border-tools-2">
             <h5 class="mt-2">Mis tareas:</h5>
             <ul>
               <li class="font-text" v-for="(task, index) in programming" :key="index">{{ task }}</li>

@@ -483,6 +483,15 @@ h3{
   align-items: flex-start;
   padding: 20px;
 }
+.border-tools-1{
+  border-right: 2px solid black!important;
+  border-top: 2px solid black!important;
+  border-bottom: 2px solid black!important;
+}
+.border-tools-2{
+  border-top: 2px solid black!important;
+  border-bottom: 2px solid black!important;
+}
 .img-project{
   width: 100%; 
   height: auto;
@@ -547,11 +556,27 @@ h3{
   .background-about-me{
     height: 250px;
   }
-  .title-projects{
+  .title-projects, .title-project{
     font-size: 50px;
   }
-  .sub-title{
+  .sub-title, .about-page{
     font-size: 16px;
+  }
+  .section-tools{
+    width: 100%;
+    padding: 10px;
+    min-height: auto;
+  }
+  .border-tools-1{
+    border-right: 0px solid black!important;
+    border-left: 0px solid black!important;
+  }
+  .border-tools-2{
+    border-top: 0px solid black!important;
+    border-bottom: 2px solid black!important;
+  }
+  .project-details-container {
+    border: none;
   }
 }
 
