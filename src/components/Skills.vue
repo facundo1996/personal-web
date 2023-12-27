@@ -16,7 +16,7 @@
     </div>
 
     <div class="background-box-about-me mt-4">
-      <h5 class="subtitle">Librerias</h5>
+      <h5 class="subtitle">Librerías</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in styled" :key="index">
           <div class="img-skill-container">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="background-box-about-me mt-4">
-      <h5 class="subtitle">Otras Tecnologias</h5>
+      <h5 class="subtitle">Otras Tecnologías</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in otherSkills" :key="index">
           <div class="img-skill-container">

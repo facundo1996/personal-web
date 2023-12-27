@@ -6,7 +6,7 @@ const Allprojects = [
     description: 'Es una aplicación móvil donde los usuarios pueden crear su equipo semanalmente recogiendo 5 acciones de la bolsa de valores. Basado en cómo sean los precios de las acciones seleccionadas, los equipos sumarán o restarán puntos. Al final de cada semana, los 10 mejores equipos ganarán un premio.',
     programming: [
       'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
-      'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
+      'Trabajé en conjunto con el equipo de Backend para integrar las APIs en el proyecto.',
       'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
       'Integré un estado global y de gestión de datos mediante Vuex.',
       'Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.',
@@ -23,7 +23,7 @@ const Allprojects = [
     description: 'Anteriormente conocido como ‘Paygrade’, es una simulación de bancos e inversiones para que los estudiantes aprendan sobre finanzas personales, hacer presupuestos, pagar facturas, ganar un ingreso, ahorrar o invertir en el mercado de valores',
     programming: [
       'Maqueté el rediseño del proyecto trabajando en conjunto con Figma.',
-      'Adapte el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.',
+      'Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.',
       'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
       'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
       'Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.',
@@ -37,10 +37,10 @@ const Allprojects = [
   {
     title: 'Cryptocampo',
     primary: 'Vue JS',
-    description: 'Primer proyecto web3 en Argentina que logro mezclar la tecnología blockchain con el cultivo agropecuario.',
+    description: 'Primer proyecto web3 en Argentina que logró mezclar la tecnología blockchain con el cultivo agropecuario.',
     programming: [
       'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
-      'Adapte el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.',
+      'Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.',
       'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
       'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
       'Integré un estado global y de gestión de datos mediante Vuex.',
@@ -58,7 +58,7 @@ const Allprojects = [
     description: 'Es una plataforma en línea que ofrece una variedad de servicios relacionados con el desarrollo de software y la consultoría tecnológica. Su enfoque principal es brindar soluciones en diferentes áreas, como desarrollo de software, transformación digital y servicios de infraestructura. La plataforma busca ayudar a las empresas a alcanzar sus objetivos y enfrentar los desafíos del mundo digital actual.',
     programming: [
       "Maqueté el proyecto trabajando en conjunto con el diseñador (Adobe XD).",
-      "Adapté el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.",
+      "Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.",
       "Creé y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.",
       "Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.",
     ],
@@ -74,7 +74,7 @@ const Allprojects = [
     description: 'Una colección NFT de 10.000 tokens de arte 3D en Ethereum Mainnet que se agotó en 12 minutos.',
     programming: [
       "Maqueté y desarrollé la interfaz basada en el diseño de Figma, incluyendo una galería robusta, gestionando más de 10,000 imágenes mediante llamadas a API. Con varios filtros y paginación a través de query parameters para lograr una experiencia fluida y optimizada.",
-      "Adapté el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.",
+      "Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.",
       "Creé y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.",
       "Integré un estado global y de gestión de datos mediante Vuex.",
       "Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.",
@@ -109,7 +109,7 @@ const Allprojects = [
     description: 'Es un sitio web que ofrece recursos y tutoriales para aquellos interesados en la fabricación y creación de proyectos. Proporciona información sobre electrónica, programación, impresión 3D y otros temas relacionados. Además, ofrece guías paso a paso, videos y contenido educativo para ayudar a los usuarios a aprender y desarrollar sus habilidades en el campo de la fabricación.',
     programming: [
       'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
-      'Adapte el diseño para una mejor respuesta responsiva con múltiples dispositivos y tamaños de pantalla.',
+      'Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.',
       'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
       'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
       'Integré un estado global y de gestión de datos mediante Vuex.',

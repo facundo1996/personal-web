@@ -2,7 +2,7 @@
 <template>
   <div class="project-container">
     <h2 class="title-projects text-center mt-md-5 mt-2">Proyectos</h2>
-    <p class="sub-title text-center w-75 my-md-5 my-2">Estos son algunos de los proyectos que realice desde mis inicios con las tecnologias mas somples como HTML y CSS hasta los que hice en la empresaen la cual trabaje 3 años con distintso framework como React y Vue JS.</p>
+    <p class="sub-title text-center w-75 my-md-5 my-2">Desde mis primeros pasos escribiendo código HTML y CSS hasta liderar proyectos en una empresa tecnológica durante 3 años, he experimentado un crecimiento constante. Mi enfoque se ha centrado en la maestría de frameworks como React y Vue JS, contribuyendo al éxito de proyectos con soluciones innovadoras y eficientes.</p>
     <div class="cards-container">
       <ProjectCard v-for="(project, index) in projects" :key="index" :project='project' @click="openModal(project)" />
     </div>

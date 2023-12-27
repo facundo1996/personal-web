@@ -9,7 +9,7 @@
           Aquí podrás conocer más sobre mí, explorar mis habilidades y descubrir los proyectos web y aplicaciones en los que he dejado mi huella.
         </p>
         <p class="text-about-me">
-          Estoy en la búsqueda de un papel desafiante en una empresa con visión de futuro, donde pueda seguir creciendo profesionalmente y contribuir en un equipo que valore la creatividad y la colaboración.
+          Estoy en búsqueda de un rol desafiante en una empresa con visión de futuro, donde pueda seguir creciendo profesionalmente y contribuir en un equipo que valore la creatividad y la colaboración.
         </p>
         <div class="d-flex">
           <router-link class="me-3 custom-button bg-white" to="/about-me">
