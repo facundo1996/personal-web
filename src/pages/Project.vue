@@ -13,17 +13,17 @@
         <div class="w-100 text-center d-flex align-items-center justify-content-center mb-3">
           <Popper hover placement="top" content="Proyecto no disponible" arrow :disabled="!!link" >
             <div class="position-relative">
-              <img v-if="!link" src="../../public/lock.png" width="30" class="lock-icon">
+              <img v-if="!link" src="../../src/images/lock.png" width="30" class="lock-icon">
               <button :disabled="link ?false :true" v-on:click="toPage(link)" class="link-project btn">
-                <img src="../../public/web.png" width="25" class="me-1" alt="">Proyecto
+                <img src="../../src/images/web.png" width="25" class="me-1" alt="">Proyecto
               </button>
             </div>
           </Popper>
           <Popper hover placement="top" content="Repositorio privado" arrow :disabled="!!github" >
             <div class="position-relative">
-              <img v-if="!github" src="../../public/lock.png" width="30" class="lock-icon">
+              <img v-if="!github" src="../../src/images/lock.png" width="30" class="lock-icon">
               <button :disabled="github ?false :true" v-on:click="toPage(github)" class="link-project btn">
-                <img src="../../public/github.png" width="25" class="me-1" alt="">GitHub
+                <img src="../../src/images/github.png" width="25" class="me-1" alt="">GitHub
               </button>
             </div>
           </Popper>

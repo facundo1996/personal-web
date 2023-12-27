@@ -14,7 +14,7 @@ const Allprojects = [
     ],
     link: '',
     github: '',
-    pictures: ['../../public/fantasy-1.png'],
+    pictures: ['../../src/images/fantasy-1.png'],
     stack: ['Quasar', 'jQuery', 'JavaScript', 'Vuex', 'Vue Router', 'CSS'],
   },
   {
@@ -30,7 +30,7 @@ const Allprojects = [
     ],
     link: 'https://www.stash.com/',
     github: '',
-    pictures: ['../../public/stash.png'],
+    pictures: ['../../src/images/stash.png'],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],
     border: true,
   },
@@ -49,7 +49,7 @@ const Allprojects = [
     ],
     link: 'https://cryptocampo.app/#/',
     github: '',
-    pictures: ['../../public/cryptocampo.png'],
+    pictures: ['../../src/images/cryptocampo.png'],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],
   },
   {
@@ -64,7 +64,7 @@ const Allprojects = [
     ],
     link: 'https://www.ktblack.com/s/',
     github: '',
-    pictures: ['../../public/kt-black.png', '../../public/kt-black-2.png'],
+    pictures: ['../../src/images/kt-black.png', '../../src/images/kt-black-2.png'],
     stack: ['React', 'Material UI', 'JavaScript', 'CSS' ],
     border: true,
   },
@@ -82,7 +82,7 @@ const Allprojects = [
     ],
     link: 'https://incognitonft.com/',
     github: '',
-    pictures: ['../../public/incognito.png'],
+    pictures: ['../../src/images/incognito.png'],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'Bootstrap', 'HTML', 'CSS'],
   },
   {
@@ -100,7 +100,7 @@ const Allprojects = [
     ],
     link: 'https://play.google.com/store/apps/details?id=com.kasai.app&hl=en_US&gl=US',
     github: '',
-    pictures: ['../../public/kasai-3.png', '../../public/kasai-2.png'],
+    pictures: ['../../src/images/kasai-3.png', '../../src/images/kasai-2.png'],
     stack: ['Quasar', 'JavaScript', 'Vuex', 'Vue Router', 'CSS', 'Bootstrap'],
   },
   {
@@ -118,7 +118,7 @@ const Allprojects = [
     ],
     link: 'https://capablemaker.com/',
     github: '',
-    pictures: ['../../public/capable.png'],
+    pictures: ['../../src/images/capable.png'],
     stack: ['Vue JS', 'JavaScript', 'Bootstrap', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'jQuery'],
   },
 ]

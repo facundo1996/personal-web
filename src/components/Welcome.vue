@@ -22,21 +22,21 @@
       <div class="position-relative w-50 d-none d-xl-flex">
         <div class="profile-container border border-2 border-dark picture-1">
           <div class="header-card icon-code">
-            <img src="../../public/code.png" alt="">
+            <img src="../../src/images/code.png" alt="">
           </div>
           <div class="bg-white caption">Front End</div>
         </div>
 
         <div class="profile-container border border-2 border-dark picture-2">
           <div class="header-card icon-site">
-            <img src="../../public/lugar.png" alt="">
+            <img src="../../src/images/lugar.png" alt="">
           </div>
           <div class="bg-white caption">Rosario</div>
         </div>
 
         <div class="profile-container border border-2 border-dark picture-3">
           <div class="header-card icon-profile">
-            <img src="../../public/profile.png" alt="">
+            <img src="../../src/images/profile.png" alt="">
           </div>
           <div class="bg-white caption">Facundo</div>
         </div>

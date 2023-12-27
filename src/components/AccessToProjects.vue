@@ -46,7 +46,7 @@
 <style scoped>
 .project-1 {
   position: absolute;
-  background: url('../../public/kt-black-2.png');
+  background: url('../../src/images/kt-black-2.png');
   background-size: cover;
   background-repeat: no-repeat;
   left: 40px;
@@ -55,7 +55,7 @@
 
 .project-2 {
   position: absolute;
-  background: url('../../public/fantasy-1.png');
+  background: url('../../src/images/fantasy-1.png');
   background-size: cover;
   background-repeat: no-repeat;
   left: 180px;
@@ -64,7 +64,7 @@
 
 .project-3 {
   position: absolute;
-  background: url('../../public/incognito.png');
+  background: url('../../src/images/incognito.png');
   background-size: cover;
   background-repeat: no-repeat;
   left: 320px;
