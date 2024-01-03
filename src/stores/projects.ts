@@ -14,7 +14,7 @@ const Allprojects = [
     ],
     link: '',
     github: '',
-    pictures: ['../../src/images/fantasy-1.png'],
+    pictures: ['../../public/fantasy-1.png'],
     stack: ['Quasar', 'jQuery', 'JavaScript', 'Vuex', 'Vue Router', 'CSS'],
   },
   {
@@ -118,7 +118,7 @@ const Allprojects = [
     ],
     link: 'https://capablemaker.com/',
     github: '',
-    pictures: ['../../src/images/capable.png'],
+    pictures: ['../../public/capable.png'],
     stack: ['Vue JS', 'JavaScript', 'Bootstrap', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'jQuery'],
   },
   {
@@ -135,7 +135,7 @@ const Allprojects = [
     ],
     link: 'https://crazybaboonz.io/',
     github: '',
-    pictures: ['../../src/images/crazybaboonz.png'],
+    pictures: ['../../public/crazybaboonz.png'],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'Bootstrap', 'HTML', 'CSS'],
   },
 ]
