@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div data-aos="fade-up" data-aos-duration="500">
 
     <div class="box-about-me background-box-about-me">
 

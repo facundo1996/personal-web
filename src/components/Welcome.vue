@@ -1,7 +1,7 @@
 <template>
   <div class="section-container bg-tiquewhite">
     <section class="sub-section-container bg-tiquewhite d-flex justify-content-center justify-content-xl-between align-items-center">
-      <div class="d-flex flex-column justify-content-center">
+      <div data-aos="fade-right" data-aos-duration="500" class="d-flex flex-column justify-content-center">
         <h2 class="title-about-me">¡Bienvenido a mi espacio digital!</h2>
         <p class="text-about-me">
           Mi nombre es <b>Facundo Benedetto</b>
@@ -19,7 +19,7 @@
         </div>
       </div>
 
-      <div class="position-relative w-50 d-none d-xl-flex">
+      <div data-aos="fade-left" data-aos-duration="500" class="position-relative w-50 d-none d-xl-flex">
         <div class="profile-container border border-2 border-dark picture-1">
           <div class="header-card icon-code">
             <img src="../../src/images/code.png" alt="">

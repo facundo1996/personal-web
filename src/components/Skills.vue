@@ -1,7 +1,7 @@
 <template>
   <div class="">
 
-    <div class="background-box-about-me">
+    <div data-aos="fade-up" data-aos-duration="600" class="background-box-about-me">
       <h5 class="subtitle">Principales</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in skills" :key="index">
@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="background-box-about-me mt-4">
+    <div data-aos="fade-up" data-aos-duration="700" class="background-box-about-me mt-4">
       <h5 class="subtitle">Librerías</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in styled" :key="index">
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="background-box-about-me mt-4">
+    <div data-aos="fade-up" data-aos-duration="800" class="background-box-about-me mt-4">
       <h5 class="subtitle">Otras Tecnologías</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in otherSkills" :key="index">

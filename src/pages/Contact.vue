@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column justify-content-start align-items-center min-height-page bg-tiquewhite">
+  <div data-aos="fade-zoom" :data-aos-duration="700" class="d-flex flex-column justify-content-start align-items-center min-height-page bg-tiquewhite">
 
 
     <div class="container-page d-flex flex-column align-items-center justify-content-start">
