@@ -121,6 +121,23 @@ const Allprojects = [
     pictures: ['../../src/images/capable.png'],
     stack: ['Vue JS', 'JavaScript', 'Bootstrap', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'jQuery'],
   },
+  {
+    title: 'Crazy Baboonz',
+    primary: 'Vue JS',
+    description: 'Una colección compuesta por 10,000 NFT Crazy Baboonz generados de manera aleatoria y únicos, los cuales viven en la cadena de bloques de Ethereum.',
+    programming: [
+      "Maqueté y desarrollé la interfaz basada en el diseño de Figma, incluyendo una galería robusta, gestionando más de 10,000 imágenes mediante llamadas a API. Con varios filtros y paginación a través de query parameters para lograr una experiencia fluida y optimizada.",
+      "Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.",
+      "Creé y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.",
+      "Integré un estado global y de gestión de datos mediante Vuex.",
+      "Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.",
+      "Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router."
+    ],
+    link: 'https://crazybaboonz.io/',
+    github: '',
+    pictures: ['../../src/images/crazybaboonz.png'],
+    stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'Bootstrap', 'HTML', 'CSS'],
+  },
 ]
 
 const getProject = (title: string) => {

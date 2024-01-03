@@ -505,7 +505,10 @@ h3{
   padding: 3px 5px;
   font-family: var(--font-text);
 }
-
+.hr-projects{
+  border-top: 2px solid black!important;  
+  opacity: 1;
+}
 @media (max-width: 1199.98px) {
   .container-page {
     padding: 0px 10px;

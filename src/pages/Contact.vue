@@ -6,7 +6,7 @@
 
       <div class="form-conatiner">
         <h3 class="mb-md-5 mb-2">Contactame</h3>
-        <p class="mb-md-5 mb-2 text-social">Tambien puede agendar mi email: <b>facundobenedetto2@outlook.com</b></p>
+        <p class="mb-md-5 mb-2 text-social">También puede agendar mi email: <b>facundobenedetto2@outlook.com</b></p>
 
         <form id="form">
           <div class="form-group">
