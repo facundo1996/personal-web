@@ -509,6 +509,9 @@ h3{
   border-top: 2px solid black!important;  
   opacity: 1;
 }
+
+.slide-top:hover{animation:slide-top 0.3s linear both}@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}
+
 @media (max-width: 1199.98px) {
   .container-page {
     padding: 0px 10px;
