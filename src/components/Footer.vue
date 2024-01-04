@@ -8,26 +8,34 @@
     </ul>
     <p class="text-center">Facundo Benedetto</p>
     <div class="social-container-footer">
+      <Popper hover placement="top" content="GitHub" arrow>
         <a href="https://github.com/facundo1996" target="_blanck" class="btn-icon-social-footer">
           <img src="https://www.svgrepo.com/show/501210/github.svg" alt="">
         </a>
+      </Popper>
+      <Popper hover placement="top" content="LinkedIn" arrow>
         <a href="https://www.linkedin.com/in/facundo-benedetto-44772b189/" target="_blanck" class="btn-icon-social-footer">
           <img src="https://www.svgrepo.com/show/512419/linkedin-161.svg" alt="">
         </a>
-        <a href="mailto:facundobenedetto2@outlook.com" target="_blanck" class="btn-icon-social-footer">
+      </Popper>
+      <Popper hover placement="top" content="Email" arrow>
+        <a href="mailto:facundobenedetto2@outlook.com" class="btn-icon-social-footer">
           <img src="https://www.svgrepo.com/show/117938/outlook-logo.svg" alt="">
         </a>
+      </Popper>
+      <Popper hover placement="top" content="Curriculum" arrow>
         <a href="https://drive.google.com/file/d/1I77hAxKgUGLt9RYULRP3FnInCdjLUPFY/view?usp=sharing" target="_blanck" class="btn-icon-social-footer">
           <img src="https://www.svgrepo.com/show/256562/curriculum-portfolio.svg" alt="">
         </a>
-      </div>
+      </Popper>
+    </div>
   </footer>
 </template>
 
 <script lang="ts">
 export default {
   name: "Footer",
-  data(){
+  data() {
     return {
     }
   },
