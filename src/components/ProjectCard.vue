@@ -12,8 +12,9 @@ export default {
   name: "ProjectCard",
   data() {
     return {
-    }
+
+    };
   },
-  props: ['project']
+  props: ['project'],
 }
 </script>

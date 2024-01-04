@@ -1,3 +1,13 @@
+import fantasy from '../images/fantasy-1.png'
+import stash from '../../src/images/stash.png'
+import cryptocampo from '../../src/images/cryptocampo.png'
+import ktBlack1 from '../../src/images/kt-black.png'
+import ktBlack2 from '../../src/images/kt-black-2.png'
+import incognito from '../../src/images/incognito.png'
+import kasai1 from '../../src/images/kasai-1.png'
+import kasai2 from '../../src/images/kasai-2.png'
+import capable from '../../src/images/capable.png'
+import crazybaboonz  from '../../src/images/crazybaboonz.png'
 
 const Allprojects = [
   {
@@ -14,7 +24,7 @@ const Allprojects = [
     ],
     link: '',
     github: '',
-    pictures: ['../../public/fantasy-1.png'],
+    pictures: [fantasy],
     stack: ['Quasar', 'jQuery', 'JavaScript', 'Vuex', 'Vue Router', 'CSS'],
   },
   {
@@ -30,7 +40,7 @@ const Allprojects = [
     ],
     link: 'https://www.stash.com/',
     github: '',
-    pictures: ['../../src/images/stash.png'],
+    pictures: [stash],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],
     border: true,
   },
@@ -49,7 +59,7 @@ const Allprojects = [
     ],
     link: 'https://cryptocampo.app/#/',
     github: '',
-    pictures: ['../../src/images/cryptocampo.png'],
+    pictures: [cryptocampo],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],
   },
   {
@@ -64,7 +74,7 @@ const Allprojects = [
     ],
     link: 'https://www.ktblack.com/s/',
     github: '',
-    pictures: ['../../src/images/kt-black.png', '../../src/images/kt-black-2.png'],
+    pictures: [ktBlack1, ktBlack2],
     stack: ['React', 'Material UI', 'JavaScript', 'CSS' ],
     border: true,
   },
@@ -82,7 +92,7 @@ const Allprojects = [
     ],
     link: 'https://incognitonft.com/',
     github: '',
-    pictures: ['../../src/images/incognito.png'],
+    pictures: [incognito],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'Bootstrap', 'HTML', 'CSS'],
   },
   {
@@ -100,7 +110,7 @@ const Allprojects = [
     ],
     link: 'https://play.google.com/store/apps/details?id=com.kasai.app&hl=en_US&gl=US',
     github: '',
-    pictures: ['../../src/images/kasai-3.png', '../../src/images/kasai-2.png'],
+    pictures: [kasai1, kasai2],
     stack: ['Quasar', 'JavaScript', 'Vuex', 'Vue Router', 'CSS', 'Bootstrap'],
   },
   {
@@ -118,7 +128,7 @@ const Allprojects = [
     ],
     link: 'https://capablemaker.com/',
     github: '',
-    pictures: ['../../public/capable.png'],
+    pictures: [capable],
     stack: ['Vue JS', 'JavaScript', 'Bootstrap', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'jQuery'],
   },
   {
@@ -135,7 +145,7 @@ const Allprojects = [
     ],
     link: 'https://crazybaboonz.io/',
     github: '',
-    pictures: ['../../public/crazybaboonz.png'],
+    pictures: [crazybaboonz],
     stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'Bootstrap', 'HTML', 'CSS'],
   },
 ]
