@@ -35,6 +35,10 @@
 .react{
   background-color: var(--react);
 }
+.next{
+  background-color: black;
+  color: white;
+}
 .font-title{
  font-family: var(--font-title);
 }
@@ -318,6 +322,7 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 500;
 }
 .icon-code{
   background-color: rgb(188, 255, 147);

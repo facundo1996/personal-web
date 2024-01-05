@@ -119,6 +119,14 @@ export default {
           name: 'Vue Router',
           icon: 'https://www.svgrepo.com/show/452130/vue.svg',
         },
+        {
+          name: 'Vite',
+          icon: 'https://www.svgrepo.com/show/374167/vite.svg',
+        },
+        {
+          name: 'PrimeVue',
+          icon: 'https://www.primefaces.org/store/javax.faces.resource/store/image/primevue.svg.xhtml;jsessionid=340462A34B45E6486A9FE9B4CB6A97F3',
+        },
       ],
       otherSkills: [
         {

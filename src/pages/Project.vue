@@ -35,16 +35,25 @@
             <div class="d-flex flex-wrap">
               <div class="stack-card" v-for="(tool, index) in stack" :key="index">{{ tool }}</div>
             </div>
-            <h5 class="mt-3">Descripcion de proyecto</h5>
-            <p class="font-text">
+            <h5 v-if="programming.length != 0" class="mt-3">Descripcion de proyecto</h5>
+            <p v-if="programming.length != 0" class="font-text">
               {{ description }}
             </p>
           </div>
+
           <div class="section-tools border-tools-2">
-            <h5 class="mt-2">Mis tareas:</h5>
-            <ul>
-              <li class="font-text" v-for="(task, index) in programming" :key="index">{{ task }}</li>
-            </ul>
+            <span v-if="programming.length > 0">
+              <h5 class="">Mis tareas:</h5>
+              <ul>
+                <li class="font-text" v-for="(task, index) in programming" :key="index">{{ task }}</li>
+              </ul>
+            </span>
+            <span v-else>
+              <h5 class="">Descripcion de proyecto</h5>
+              <p class="font-text">
+                {{ description }}
+              </p>
+            </span>
           </div>
         </div>
 

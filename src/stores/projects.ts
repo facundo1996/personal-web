@@ -8,6 +8,10 @@ import kasai1 from '../../src/images/kasai-1.png'
 import kasai2 from '../../src/images/kasai-2.png'
 import capable from '../../src/images/capable.png'
 import crazybaboonz  from '../../src/images/crazybaboonz.png'
+import onlineShop1  from '../../src/images/online-shop-1.png'
+import onlineShop2  from '../../src/images/online-shop-2.png'
+import todolist1  from '../../src/images/todolist1.png'
+import todolist2  from '../../src/images/todolist2.png'
 
 const Allprojects = [
   {
@@ -46,21 +50,19 @@ const Allprojects = [
   },
   {
     title: 'Cryptocampo',
-    primary: 'Vue JS',
+    primary: 'React JS',
     description: 'Primer proyecto web3 en Argentina que logró mezclar la tecnología blockchain con el cultivo agropecuario.',
     programming: [
       'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
       'Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.',
       'Trabajé en conjunto con el equipo de Backend para integrar las APIs al proyecto.',
       'Cree y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.',
-      'Integré un estado global y de gestión de datos mediante Vuex.',
       'Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.',
-      'Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router.',
     ],
     link: 'https://cryptocampo.app/#/',
     github: '',
     pictures: [cryptocampo],
-    stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'HTML', 'CSS', 'Bootstrap'],
+    stack: ['React JS', 'JavaScript', 'jQuery', 'HTML', 'CSS', 'Bootstrap'],
   },
   {
     title: 'KT-Black',
@@ -133,20 +135,38 @@ const Allprojects = [
   },
   {
     title: 'Crazy Baboonz',
-    primary: 'Vue JS',
+    primary: 'React JS',
     description: 'Una colección compuesta por 10,000 NFT Crazy Baboonz generados de manera aleatoria y únicos, los cuales viven en la cadena de bloques de Ethereum.',
     programming: [
       "Maqueté y desarrollé la interfaz basada en el diseño de Figma, incluyendo una galería robusta, gestionando más de 10,000 imágenes mediante llamadas a API. Con varios filtros y paginación a través de query parameters para lograr una experiencia fluida y optimizada.",
       "Adapté el diseño para una mejor respuesta responsive con múltiples dispositivos y tamaños de pantalla.",
       "Creé y rehíce componentes interactivos, funcionales y reutilizables con el fin de una mejor optimización del proyecto.",
-      "Integré un estado global y de gestión de datos mediante Vuex.",
       "Utilicé TypeScript para un desarrollo más estructurado y fácil de mantener.",
-      "Trabajé en una navegación fluida y eficiente entre las diferentes vistas utilizando Vue Router."
     ],
     link: 'https://crazybaboonz.io/',
     github: '',
     pictures: [crazybaboonz],
-    stack: ['Vue JS', 'JavaScript', 'jQuery', 'Vuex', 'Vue Router', 'Bootstrap', 'HTML', 'CSS'],
+    stack: ['React JS', 'JavaScript', 'jQuery', 'Bootstrap', 'HTML', 'CSS'],
+  },
+  {
+    title: 'On-line Shop',
+    primary: 'Vue JS',
+    description: 'Este proyecto de prueba técnica simula una tienda virtual que incorpora elementos esenciales como una barra de búsqueda, un carrito de compras y un sistema de filtrado por categorías. Haciendo una integración efectiva de una API pública para obtener una amplia variación de productos.',
+    programming: [],
+    link: 'https://on-line-shop-vue.netlify.app/',
+    github: 'https://github.com/facundo1996/tienda-virtual',
+    pictures: [onlineShop1, onlineShop2],
+    stack: ['Vue JS', 'Vite', 'JavaScript', 'Vuex', 'Vue Router', 'Prime Vue', 'Bootstrap', 'HTML', 'CSS'],
+  },
+  {
+    title: 'To do list',
+    primary: 'Next JS',
+    description: 'Un proyecto de práctica en el cual implementé mis conocimientos de Next.js y la creación de un CRUD. La aplicación se enfoca en la gestión de notas y recordatorios.',
+    programming: [],
+    link: '',
+    github: 'https://github.com/facundo1996/to-do-list',
+    pictures: [todolist1, todolist2],
+    stack: ['Next JS', 'JavaScript', 'Tailwind', 'Prisma', 'HTML', 'CSS'],
   },
 ]
 
