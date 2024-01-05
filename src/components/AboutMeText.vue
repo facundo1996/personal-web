@@ -25,6 +25,10 @@
       <p class="text">
         Mi objetivo principal es seguir ampliando mis conocimientos en el campo de la programación y enfrentar desafíos cada vez más complejos.
       </p>
+      <p class="text d-flex align-items-center">
+        <img src="../images/argentina.png" class="me-2" style="height: 25px;" alt="">
+        Argentina - Rosario
+      </p>
 
     </div>
 

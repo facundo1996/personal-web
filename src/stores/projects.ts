@@ -29,7 +29,7 @@ const Allprojects = [
     link: '',
     github: '',
     pictures: [fantasy],
-    stack: ['Quasar', 'jQuery', 'JavaScript', 'Vuex', 'Vue Router', 'CSS'],
+    stack: ['Quasar', 'TypeScript', 'jQuery', 'JavaScript', 'Vuex', 'Vue Router', 'CSS'],
   },
   {
     title: 'Stash101',
@@ -62,7 +62,7 @@ const Allprojects = [
     link: 'https://cryptocampo.app/#/',
     github: '',
     pictures: [cryptocampo],
-    stack: ['React JS', 'JavaScript', 'jQuery', 'HTML', 'CSS', 'Bootstrap'],
+    stack: ['React JS', 'TypeScript', 'JavaScript', 'jQuery', 'HTML', 'CSS', 'Bootstrap'],
   },
   {
     title: 'KT-Black',
@@ -77,7 +77,7 @@ const Allprojects = [
     link: 'https://www.ktblack.com/s/',
     github: '',
     pictures: [ktBlack1, ktBlack2],
-    stack: ['React', 'Material UI', 'JavaScript', 'CSS' ],
+    stack: ['React', 'TypeScript', 'Material UI', 'JavaScript', 'CSS' ],
     border: true,
   },
   {
