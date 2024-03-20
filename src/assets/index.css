@@ -96,7 +96,7 @@ h4{
   text-decoration: underline;
 }
 .min-height-page{
-  min-height: calc(100vh - 280px);
+  min-height: calc(100vh - 324px);
 }
 .container-page{
   max-width: 1200px;
@@ -377,14 +377,14 @@ h3{
 
 /* PROJECTS PAGE */
 .project-container{
-  min-height: calc(100vh - 280px);
+  min-height: calc(100vh - 325px);
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
   max-width: 1600px;
   -webkit-box-pack: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin: auto;
 }
 .title-projects{
@@ -419,7 +419,7 @@ h3{
 
 /* PROJECTS DETAILS CONTAINER */
 .project-details-container{
-  min-height: calc(100vh - 280px);
+  min-height: calc(100vh - 324px);
   border-left: 2px solid;
   border-right: 2px solid;
   display: flex;
@@ -516,6 +516,13 @@ h3{
 }
 
 .slide-top:hover{animation:slide-top 0.3s linear both}@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}
+
+.title-job{
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 8px!important;
+}
 
 @media (max-width: 1199.98px) {
   .container-page {
