@@ -50,7 +50,7 @@ const Allprojects = [
   },
   {
     title: 'Cryptocampo',
-    primary: 'React JS',
+    primary: 'Vue JS',
     description: 'Primer proyecto web3 en Argentina que logró mezclar la tecnología blockchain con el cultivo agropecuario.',
     programming: [
       'Maqueté el proyecto trabajando en conjunto con el diseñador (Figma/Adobe XD).',
@@ -62,7 +62,7 @@ const Allprojects = [
     link: 'https://cryptocampo.app/#/',
     github: '',
     pictures: [cryptocampo],
-    stack: ['React JS', 'TypeScript', 'JavaScript', 'jQuery', 'HTML', 'CSS', 'Bootstrap'],
+    stack: ['Vue JS', 'TypeScript', 'JavaScript', 'jQuery', 'HTML', 'CSS', 'Bootstrap'],
   },
   {
     title: 'KT-Black',
