@@ -12,6 +12,7 @@ import onlineShop1  from '../../src/images/online-shop-1.png'
 import onlineShop2  from '../../src/images/online-shop-2.png'
 import todolist1  from '../../src/images/todolist1.png'
 import todolist2  from '../../src/images/todolist2.png'
+import amazonia from '../../src/images/amazonia.png'
 
 const Allprojects = [
   {
@@ -167,6 +168,20 @@ const Allprojects = [
     github: 'https://github.com/facundo1996/to-do-list',
     pictures: [todolist1, todolist2],
     stack: ['Next JS', 'JavaScript', 'Tailwind', 'Prisma', 'HTML', 'CSS'],
+  },
+  {
+    title: 'Amazonía',
+    primary: 'React JS',
+    description: 'Proyecto que realice de forma independiente para un cliente. Amazonia es una empresa de construcción que revoluciona el sector con su enfoque innovador, se destaca por su compromiso con la calidad, la durabilidad y la responsabilidad ambiental, liderando el camino hacia un futuro de construcción moderna y eficiente.',
+    programming: [
+      'Maquetación.',
+      'Colaboración con el cliente.',
+      'Colaboración con el diseñador.',
+    ],
+    link: 'https://amazonia-web.netlify.app/',
+    github: 'https://github.com/facundo1996/amazonia',
+    pictures: [amazonia],
+    stack: ['React JS', 'JavaScript', 'Bootstrap', 'HTML', 'CSS'],
   },
 ]
 
