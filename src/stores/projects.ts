@@ -175,6 +175,7 @@ const Allprojects = [
     description: 'Proyecto que realice de forma independiente para un cliente. Amazonia es una empresa de construcción que revoluciona el sector con su enfoque innovador, se destaca por su compromiso con la calidad, la durabilidad y la responsabilidad ambiental, liderando el camino hacia un futuro de construcción moderna y eficiente.',
     programming: [
       'Maquetación.',
+      'Hosting.',
       'Colaboración con el cliente.',
       'Colaboración con el diseñador.',
     ],
