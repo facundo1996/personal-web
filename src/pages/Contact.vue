@@ -49,7 +49,6 @@ export default {
   name: 'Contact',
   methods: {
     sendEmail() {
-      console.log("aseas")
       emailjs.send("service_phjc9cs","template_c7p4cy8",{
         name: this.name,
         message: this.message,

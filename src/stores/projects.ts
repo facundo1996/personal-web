@@ -178,7 +178,7 @@ const Allprojects = [
       'Colaboración con el cliente.',
       'Colaboración con el diseñador.',
     ],
-    link: 'https://amazonia-web.netlify.app/',
+    link: 'https://www.amazoniaamz.com/',
     github: 'https://github.com/facundo1996/amazonia',
     pictures: [amazonia],
     stack: ['React JS', 'JavaScript', 'Bootstrap', 'HTML', 'CSS'],
