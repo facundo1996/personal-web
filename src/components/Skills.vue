@@ -1,7 +1,16 @@
 <template>
   <div class="">
 
-    <div data-aos="fade-up" data-aos-duration="600" class="background-box-about-me">
+    <div data-aos="fade-up" data-aos-duration="500" class="background-exp">
+      <h5 class="subtitle">Experiencia profesional</h5>
+      <div class="exp-container">
+        <a href="https://www.softwareontheroad.com/">Software On The Road LLC</a>
+        <div>Front end developer</div>
+        <div>+3 años ( Septiembre 2020 - Noviembre 2023 )</div>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="600" class="background-box-about-me mt-4">
       <h5 class="subtitle">Principales</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in skills" :key="index">
@@ -15,7 +24,7 @@
       </div>
     </div>
 
-    <div data-aos="fade-up" data-aos-duration="700" class="background-box-about-me mt-4">
+    <div data-aos="fade-up" data-aos-duration="700" class="background-exp mt-4">
       <h5 class="subtitle">Librerías</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in styled" :key="index">
