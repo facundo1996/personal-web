@@ -1,5 +1,9 @@
 {
   "files": [],
+  "compilerOptions": {
+    "module": "es2020",    // O puedes usar 'esnext', 'es2022', dependiendo de tus necesidades.
+    "target": "es2020"     // Asegúrate de que `target` sea al menos 'es2020' o superior.
+  },
   "references": [
     {
       "path": "./tsconfig.node.json"
