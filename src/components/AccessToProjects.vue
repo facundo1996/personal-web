@@ -4,7 +4,7 @@
       <div data-aos="fade-up" data-aos-duration="500" class="d-flex flex-column justify-content-center text-end">
         <h2 class="title-about-me">Proyectos</h2>
         <p class="text-about-me">
-          Aquí podrás ver algunos de los proyectos en los que he participado en mis <b>+3 años de experiencia como Front
+          Aquí podrás ver algunos de los proyectos en los que he participado en mis <b>+4 años de experiencia como Front
             End</b> y también algunos de los proyectos que hice como practicas personales.
         </p>
         <p class="text-about-me">
@@ -15,7 +15,8 @@
         </div>
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="500" class="position-relative w-50 d-none d-xl-flex align-items-center">
+      <div data-aos="fade-up" data-aos-duration="500"
+        class="position-relative w-50 d-none d-xl-flex align-items-center">
         <div class="position-relative d-none d-xl-flex ">
           <div class="profile-container border border-2 border-dark project-1">
             <div class="header-card react">

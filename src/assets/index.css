@@ -106,6 +106,7 @@ h4{
 .background-exp{
   padding: 20px;
   border-radius: 13px;
+  background-color: var(--secondary);
 }
 .background-box-about-me{
   background-color: var(--secondary);
@@ -149,11 +150,11 @@ h4{
   top: -180px;
 }
 .subtitle{
-  font-size: 30px;
+  font-size: 28px;
 }
 .text{
   font-family: var(--font-text);
-  font-size: 20px;
+  font-size: 16px;
 }
 .skills{
   display: flex;
@@ -192,7 +193,7 @@ h4{
   justify-content: center;
 }
 .section-container{
-  padding: 100px 15px;
+  padding: 150px 15px;
   border-bottom: 2px solid;
   display: flex;
   justify-content: center;
@@ -212,7 +213,7 @@ h4{
   width: 480px;
   font-family: var(--font-text);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
 }
 .text-social{
   font-family: var(--font-text);
@@ -521,16 +522,18 @@ h3{
 
 .slide-top:hover{animation:slide-top 0.3s linear both}@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}
 
+.exp-container{
+  color: #000;
+  font-family: var(--font-text);
+  font-size: 16px;
+  margin-top: 15px;
+}
+
 .exp-container a{
   color: #000;
   font-family: var(--font-text);
   font-weight: bold;
   font-size: 22px;
-}
-.exp-container{
-  color: #000;
-  font-family: var(--font-text);
-  font-size: 16px;
 }
 
 @media (max-width: 1199.98px) {
@@ -538,7 +541,7 @@ h3{
     padding: 0px 10px;
   }
   .section-container{
-    padding: 50px 15px;
+    padding: 50px 20px;
   }
   .title-about-me{
     width: auto;
@@ -548,9 +551,6 @@ h3{
   }
   .text-about-me { 
     width: auto; 
-    font-family: 'Archivo', sans-serif; 
-    font-weight: 500; 
-    font-size: 20px; 
   }
 }
 @media (max-width: 767.98px) {

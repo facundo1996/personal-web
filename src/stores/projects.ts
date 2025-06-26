@@ -13,8 +13,20 @@ import onlineShop2  from '../../src/images/online-shop-2.png'
 import todolist1  from '../../src/images/todolist1.png'
 import todolist2  from '../../src/images/todolist2.png'
 import amazonia from '../../src/images/amazonia.png'
+import drpaula from '../../src/images/drpaula.png'
 
 const Allprojects = [
+  {
+    title: 'Dra Paula Gutierrez',
+    primary: 'Kirby',
+    description: 'Trabajo realizado de la mano de GoldenSub para una cirujana especializada en medicina estética y antienvejecimiento.',
+    programming: [],
+    link: 'https://drapaulagutierrez.com/',
+    github: '',
+    pictures: [drpaula],
+    stack: ['Kirby CMS', 'PHP', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    border: true,
+  },
   {
     title: 'Fantasy',
     primary: 'Quasar',

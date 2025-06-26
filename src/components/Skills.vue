@@ -1,8 +1,13 @@
 <template>
   <div class="">
-
+    
     <div data-aos="fade-up" data-aos-duration="500" class="background-exp">
       <h5 class="subtitle">Experiencia profesional</h5>
+      <div class="exp-container">
+        <a href="https://goldensub.com/">Golden Sub</a>
+        <div>Front end developer</div>
+        <div>( Junio 2020 - Actualidad )</div>
+      </div>
       <div class="exp-container">
         <a href="https://www.softwareontheroad.com/">Software On The Road LLC</a>
         <div>Front end developer</div>
@@ -25,7 +30,7 @@
     </div>
 
     <div data-aos="fade-up" data-aos-duration="700" class="background-exp mt-4">
-      <h5 class="subtitle">Librerías</h5>
+      <h5 class="subtitle">Otras</h5>
       <div class="skills">
         <div class="skill" v-for="(skill, index) in styled" :key="index">
           <div class="img-skill-container">
@@ -37,21 +42,6 @@
         </div>
       </div>
     </div>
-
-    <div data-aos="fade-up" data-aos-duration="800" class="background-box-about-me mt-4">
-      <h5 class="subtitle">Otras Tecnologías</h5>
-      <div class="skills">
-        <div class="skill" v-for="(skill, index) in otherSkills" :key="index">
-          <div class="img-skill-container">
-            <img :src="skill.icon" alt="">
-          </div>
-          <div>
-            {{ skill.name }}
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </template>
 
@@ -61,6 +51,14 @@ export default {
   data() {
     return {
       skills: [
+        {
+          name: 'Kirby',
+          icon: 'https://assets.getkirby.com/assets/images/favicon.1704303350.png',
+        },
+        {
+          name: 'PHP',
+          icon: 'https://www.php.net/favicon.ico?v=2',
+        },
         {
           name: 'Vue JS',
           icon: 'https://www.svgrepo.com/show/452130/vue.svg',
@@ -86,10 +84,6 @@ export default {
           icon: 'https://www.svgrepo.com/show/374024/quasar.svg',
         },
         {
-          name: 'Node JS',
-          icon: 'https://www.svgrepo.com/show/452075/node-js.svg',
-        },
-        {
           name: 'HTML',
           icon: 'https://www.svgrepo.com/show/452228/html-5.svg',
         },
@@ -97,7 +91,18 @@ export default {
           name: 'CSS',
           icon: 'https://www.svgrepo.com/show/452185/css-3.svg',
         },
-
+        {
+          name: 'Nest JS',
+          icon: 'https://nestjs.com/logo-small-gradient.d792062c.svg',
+        },
+        {
+          name: 'Node JS',
+          icon: 'https://www.svgrepo.com/show/452075/node-js.svg',
+        },
+        {
+          name: 'MySQL',
+          icon: 'https://labs.mysql.com/common/logos/mysql-logo.svg?v2',
+        },
       ],
       styled: [
         {
@@ -121,23 +126,9 @@ export default {
           icon: 'https://www.svgrepo.com/show/374118/tailwind.svg',
         },
         {
-          name: 'Vuex',
-          icon: 'https://user-images.githubusercontent.com/7110136/29002857-9e802f08-7ab4-11e7-9c31-604b5d0d0c19.png',
-        },
-        {
-          name: 'Vue Router',
-          icon: 'https://www.svgrepo.com/show/452130/vue.svg',
-        },
-        {
           name: 'Vite',
           icon: 'https://www.svgrepo.com/show/374167/vite.svg',
         },
-        {
-          name: 'PrimeVue',
-          icon: 'https://www.primefaces.org/store/javax.faces.resource/store/image/primevue.svg.xhtml;jsessionid=340462A34B45E6486A9FE9B4CB6A97F3',
-        },
-      ],
-      otherSkills: [
         {
           name: 'GitHub',
           icon: 'https://www.svgrepo.com/show/512317/github-142.svg',
@@ -157,15 +148,7 @@ export default {
         {
           name: 'Adobe XD',
           icon: 'https://www.svgrepo.com/show/452151/adobe-xd.svg',
-        },
-        {
-          name: 'Postman',
-          icon: 'https://www.svgrepo.com/show/354202/postman-icon.svg',
-        },
-        {
-          name: 'Insomnia',
-          icon: 'https://www.svgrepo.com/show/353904/insomnia.svg',
-        },
+        }
       ]
     }
   },
