@@ -1,21 +1,93 @@
-import fantasy from '../images/fantasy-1.png'
-import stash from '../../src/images/stash.png'
-import cryptocampo from '../../src/images/cryptocampo.png'
-import ktBlack1 from '../../src/images/kt-black.png'
-import ktBlack2 from '../../src/images/kt-black-2.png'
-import incognito from '../../src/images/incognito.png'
-import kasai1 from '../../src/images/kasai-1.png'
-import kasai2 from '../../src/images/kasai-2.png'
-import capable from '../../src/images/capable.png'
-import crazybaboonz  from '../../src/images/crazybaboonz.png'
-import onlineShop1  from '../../src/images/online-shop-1.png'
-import onlineShop2  from '../../src/images/online-shop-2.png'
-import todolist1  from '../../src/images/todolist1.png'
-import todolist2  from '../../src/images/todolist2.png'
-import amazonia from '../../src/images/amazonia.png'
-import drpaula from '../../src/images/drpaula.png'
+import fantasy from '@/images/fantasy-1.png';
+import stash from '@/images/stash.png';
+import cryptocampo from '@/images/cryptocampo.png';
+import ktBlack1 from '@/images/kt-black.png';
+import ktBlack2 from '@/images/kt-black-2.png';
+import incognito from '@/images/incognito.png';
+import kasai1 from '@/images/kasai-1.png';
+import kasai2 from '@/images/kasai-2.png';
+import capable from '@/images/capable.png';
+import crazybaboonz from '@/images/crazybaboonz.png';
+import onlineShop1 from '@/images/online-shop-1.png';
+import onlineShop2 from '@/images/online-shop-2.png';
+import todolist1 from '@/images/todolist1.png';
+import todolist2 from '@/images/todolist2.png';
+import amazonia from '@/images/amazonia.png';
+import drpaula from '@/images/drpaula.png';
+import gupa from '@/images/gupa.png';
+import leozea from '@/images/leozea.png';
+import chiaenvy from '@/images/chiaenvy.png';
+import vagontravel from '@/images/vagontravel.png';
+import whaley from '@/images/whaley.png';
 
-const Allprojects = [
+export interface Project {
+  title: string
+  primary: string
+  description: string
+  programming: string[]
+  link: string
+  github: string
+  pictures: string[]
+  stack: string[]
+  border?: boolean
+}
+
+const Allprojects: Project[] = [
+  {
+    title: 'Gupa',
+    primary: 'Kirby',
+    description: 'Trabajo realizado de la mano de GoldenSub para Gupa, una empresa dedicada a soluciones inmobiliarias y responsabilidad social en México.',
+    programming: [],
+    link: 'https://gupamx.com/',
+    github: '',
+    pictures: [gupa],
+    stack: ['Kirby CMS', 'PHP', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    border: true,
+  },
+  {
+    title: 'Leo Zea',
+    primary: 'Kirby',
+    description: 'Trabajo realizado de la mano de GoldenSub para Leo Zea, un estudio jurídico que ofrece servicios legales y de consultoría en México.',
+    programming: [],
+    link: 'https://leozea.com/',
+    github: '',
+    pictures: [leozea],
+    stack: ['Kirby CMS', 'PHP', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    border: true,
+  },
+  {
+    title: 'Chia Envy',
+    primary: 'Kirby',
+    description: 'Trabajo realizado de la mano de GoldenSub para Chia Envy, una empresa dedicada a la venta de productos de chia en México.',
+    programming: [],
+    link: 'https://chiaenvy.com/',
+    github: '',
+    pictures: [chiaenvy],
+    stack: ['Kirby CMS', 'PHP', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    border: true,
+  },
+  {
+    title: 'Whaley',
+    primary: 'Kirby',
+    description: 'Trabajo realizado de la mano de GoldenSub para Whaley',
+    programming: [],
+    link: 'https://whaley.mx/',
+    github: '',
+    pictures: [whaley],
+    stack: ['Kirby CMS', 'PHP', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    border: true,
+  },
+  {
+    title: 'Vagon Travel',
+    primary: 'Kirby',
+    description: 'Trabajo realizado de la mano de GoldenSub para Vagon Travel, una empresa dedicada al turismo en México.',
+    programming: [],
+    link: 'https://vagontravel.com',
+    github: '',
+    pictures: [vagontravel],
+    stack: ['Kirby CMS', 'PHP', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    border: true,
+  },
   {
     title: 'Dra Paula Gutierrez',
     primary: 'Kirby',
@@ -198,12 +270,9 @@ const Allprojects = [
   },
 ]
 
-const getProject = (title: string) => {
-  let projectSelected = Allprojects.find(
-    (project) => project.title === title
-  );
-  return projectSelected;
-};
+const getProject = (title: string): Project | undefined => {
+  return Allprojects.find((project) => project.title === title)
+}
 
 export const projects = {
   Allprojects,
